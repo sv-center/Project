@@ -1,0 +1,121 @@
+body{
+    font-size: 16px;
+}
+#wrapper {
+    max-width: 1200px; /*Ширина*/
+    margin: 0 auto;/*Выравнивание по центру*/
+    padding: 10px;/*внутренний отступ*/
+    /*outline: 1px solid #111;/*Временная рамка*/
+    /*position: relative;/*  Относительное позиционирование для того, 
+    чтобы затем размещать блоки внутри оболочки, позиционируя их абсолютно, 
+    относительно границ оболочки*/
+    }
+
+#header {
+    height: 80px;/*высота*/
+    /*background-color: rgb(232, 239, 240);/*фоновый цвет*/
+    margin-bottom: 10px;/*отступ снизу*/
+    text-align: center;
+    color: rgb(248, 242, 242);
+    background-color: rgb(114, 104, 104);
+    /*background: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614638123_66-p-kosmicheskii-fon-dlya-fotoshopa-103.jpg);*/
+}
+
+#header img {
+    width: 90px;
+    height: 80px;
+    float: left;
+    border: 5px;
+}
+
+
+.main-navigation {
+    list-style-type: none;
+    text-align: center;
+  
+    
+}
+
+.main-navigation li {
+    display: inline;
+    padding: 0 70px 0 70px;
+    /*background-color: #fff;*/
+   
+}
+
+.main-navigation li a {
+    color: rgb(230, 26, 26);
+}
+
+#sidebar1 {
+    width: 300px;/*Ширина*/
+    /*height: 80px;/*высота указана временно в дальнейше буде формироваться согласно контекста*/
+    background-color: rgb(219, 245, 245); /*фоновый цвет*/
+    margin-bottom: 10px;/*отступ снизу*/
+    /*margin-left: 900px;/*отступ слева*/
+    float: left;/*Обтекание справа*/
+    text-align: center;
+}
+
+.sidebar1-card > img {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(151, 221, 163);
+    margin-top: 100px;
+}
+
+#sidebar2 {
+    width: 300px;/*Ширина*/
+/* height: 80px;/*высота указана временно в дальнейше буде формироваться согласно контекста*/
+    background-color: rgb(199, 245, 245);/*фоновый цвет*/
+    margin-bottom: 10px;/*отступ снизу*/
+    float: right;/*Обтекание справа*/   
+}
+
+.table, td, th {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #111;
+    text-align: center;
+    padding: 5px;
+}
+th {
+    height: 50px;
+    background-color: rgb(201, 228, 151);
+}
+
+#content {
+    /*height: 80px;/*высота*/
+    width: 580px;/*Ширина*/
+    background-color: rgb(180, 227, 233);/*фоновый цвет*/
+    margin: 0 0 10px 310px;
+    /*display: flex;
+    justify-content: space-around;*/
+}
+
+.content-fotto {
+    width: 550px;
+    height: 250px;
+    border: 2px solid #111;
+    margin: 10px;
+    background-color: rgb(192, 60, 60);
+}
+.content-fotto > img {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.content-fotto > p {
+    padding: 10px;
+
+}
+
+
+#footer {
+    /*height: 80px;/*высота*/
+    background-color: rgb(62, 142, 145);/*фоновый цвет*/
+    margin-bottom: 5px;/*отступ снизу*/
+}
